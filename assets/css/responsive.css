@@ -1,0 +1,483 @@
+@media only screen and (max-width: 300px) {
+    header {
+        display: none !important;
+    }
+
+    .section-single-event {
+        display: block !important;
+    }
+
+    .section-single-event .col-header {
+        font-size: 10px;
+    }
+
+    .section-single-event .col-title {
+        font-size: 10px;
+    }
+
+    .section-single-event .align-items-center {
+        flex-direction: column !important;
+    }
+
+    .section-single-event .col-divider {
+        border: none;
+    }
+
+
+    footer {
+        display: none;
+    }
+
+    #mobile-footer {
+        display: block;
+    }
+
+    .mobile-carousel {
+        box-shadow: none;
+    }
+
+    .all-events {
+        display: none;
+    }
+
+    .col-divider {
+        margin-top: 10px !important;
+    }
+
+    .col-last {
+        margin-top: 10px;
+    }
+
+    .col-title {
+        margin-top: 0px;
+        font-size: 16px !important;
+    }
+
+    .col-header {
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+
+    .event-body {
+        flex-direction: column;
+    }
+
+    .location-body {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .location-body .left-side {
+        width: 100%;
+    }
+
+    .location-body .right-side {
+        width: 100%;
+    }
+
+    .event-location-map {
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .ticket-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #ticket-quantity {
+        width: 50% !important;
+    }
+
+    #ticket-price-amount {
+        width: 40% !important;
+    }
+
+    .multimedia-info {
+        width: 90%;
+    }
+
+    .multimedia-info h6 {
+        font-size: 14px;
+    }
+
+    .multimedia-title {
+        font-size: 10px;
+    }
+
+    .multimediaBtn {
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 600px) {
+    header {
+        display: none !important;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #mobile-footer {
+        display: block;
+    }
+
+    .mobile-carousel {
+        box-shadow: none;
+    }
+
+    .all-events {
+        display: none;
+    }
+
+    .col-divider {
+        margin-top: 10px !important;
+    }
+
+    .col-last {
+        margin-top: 10px;
+    }
+
+    .col-title {
+        margin-top: 0px;
+        font-size: 16px !important;
+    }
+
+    .col-header {
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+
+    .event-body {
+        flex-direction: column;
+    }
+
+    .location-body {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .location-body .left-side {
+        width: 100%;
+    }
+
+    .location-body .right-side {
+        width: 100%;
+    }
+
+    .event-location-map {
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .section-single-event {
+        display: block !important;
+    }
+
+    .section-single-event .align-items-center {
+        flex-direction: column !important;
+    }
+
+    .section-single-event .col-divider {
+        border: none;
+    }
+
+    .ticket-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #ticket-quantity {
+        width: 50% !important;
+    }
+
+    #ticket-price-amount {
+        width: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    header {
+        display: none !important;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #mobile-footer {
+        display: block;
+    }
+
+    .m-events-row ul {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        column-gap: 5px;
+    }
+
+    .m-events-row ul li {
+        width: calc(100%/2 - 5px)
+    }
+
+    .m-cards {
+        width: 200px !important;
+    }
+
+    .mobile-carousel {
+        box-shadow: none;
+    }
+
+    .all-events {
+        display: none;
+    }
+
+    .m-events-row {
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .m-events-row li {
+        width: calc(100% / 2 - 10px);
+    }
+
+    .m-event-info-title {
+        font-size: 9px;
+    }
+
+    .col-divider {
+        margin-top: 10px !important;
+    }
+
+    .col-last {
+        margin-top: 10px;
+    }
+
+    .col-title {
+        margin-top: 0px;
+        font-size: 16px !important;
+    }
+
+    .col-header {
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+
+    .event-body {
+        flex-direction: column;
+    }
+
+    .location-body {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .location-body .left-side {
+        width: 100%;
+    }
+
+    .location-body .right-side {
+        width: 100%;
+    }
+
+    .event-location-map {
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .section-single-event {
+        display: block !important;
+    }
+
+    .section-single-event .align-items-center {
+        flex-direction: column !important;
+    }
+
+    .section-single-event .col-divider {
+        border: none;
+    }
+
+    .ticket-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #ticket-quantity {
+        width: 50% !important;
+    }
+
+    #ticket-price-amount {
+        width: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        display: none !important;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #mobile-footer {
+        display: block;
+    }
+
+    .m-events-row ul {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        column-gap: 5px;
+    }
+
+    .m-events-row ul li {
+        width: calc(100%/2 - 5px)
+    }
+
+    .m-cards {
+        width: 200px !important;
+    }
+
+    .mobile-carousel {
+        box-shadow: none;
+    }
+
+    .all-events {
+        display: none;
+    }
+
+    .m-events-row {
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .m-events-row li {
+        width: calc(100% / 2 - 10px);
+    }
+
+    .m-event-info-title {
+        font-size: 12px;
+    }
+
+    .col-divider {
+        margin-top: 10px !important;
+    }
+
+    .col-last {
+        margin-top: 10px;
+    }
+
+    .col-title {
+        margin-top: 0px;
+        font-size: 16px !important;
+    }
+
+    .col-header {
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+
+    .event-body {
+        flex-direction: column;
+    }
+
+    .location-body {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .location-body .left-side {
+        width: 100%;
+    }
+
+    .location-body .right-side {
+        width: 100%;
+    }
+
+    .event-location-map {
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .section-single-event {
+        display: block !important;
+    }
+
+    .section-single-event .align-items-center {
+        flex-direction: column !important;
+    }
+
+    .section-single-event .col-divider {
+        border: none;
+    }
+
+    .ticket-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #ticket-quantity {
+        width: 50% !important;
+    }
+
+    #ticket-price-amount {
+        width: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .m-section {
+        display: none;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+
+    .mobile-carousel {
+        display: none;
+    }
+
+    #mobile-footer {
+        display: none;
+    }
+
+    .navigation nav ul li a {
+        font-size: 13px !important;
+    }
+
+    .event-info .info-box {
+        font-size: 12px;
+    }
+
+    .all-events .middle {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .mobile-header {
+        display: none;
+    }
+
+    .m-section {
+        display: none;
+    }
+    
+    .mobile-carousel {
+        display: none;
+    }
+
+    #mobile-footer {
+        display: none;
+    }
+
+}
